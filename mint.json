@@ -1,17 +1,42 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Heurist",
+  "name": "Heurist Ai",
+  "logo": {
+    "dark": "images/logo/dark.svg",
+    "light": "images/logo/light.svg"
+  },
+  "favicon": "/favicon.svg",
   "colors": {
     "primary": "#0D9373",
-    "light": "#55D799",
-    "dark": "#0D9373"
+    "light": "#07C983",
+    "dark": "#0D9373",
+    "anchors": {
+      "from": "#0D9373",
+      "to": "#07C983"
+    }
   },
-  "favicon": "\\~\\files\\v0\\b\\gitbook-x-prod.appspot.com\\o\\spaces\\jKGNlX6gKCqmVXFTJiU4\\icon\\JQHjtKiKNIwE7gANgW0v\\Twitter_Logo122024.png",
+  "topbarCtaButton": {
+      "name": "Support",
+      "url": "mailto:team@heurist.xyz"
+  },
+  
+  "anchors": [
+    {
+      "name": "Twitter",
+      "icon": "twitter",
+      "url": "https://twitter.com/heurist_ai"
+    },
+    {
+      "name": "Community",
+      "icon": "Discord",
+      "url": "https://discord.com/invite/heuristai"
+    }
+  ],
   "navigation": [
     {
-      "group": "Home",
+      "group": "Getting Started",
       "pages": [
-        "home"
+        "introduction"
       ]
     },
     {
@@ -57,5 +82,11 @@
         "guides/ai-101"
       ]
     }
-  ]
+  ],
+  "footerSocials": {
+    "x": "https://x.com/heurist_ai",
+    "discord": "https://discord.com/invite/heuristai",
+    "linkedin": "https://www.linkedin.com/company/heurist-ai/"
+  }
 }
+
