@@ -1,67 +1,48 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Heurist Ai",
-  "logo": {
-    "dark": "/logo/dark.svg",
-    "light": "/logo/light.svg"
-  },
-  "favicon": "/favicon.svg",
+  "name": "Heurist",
   "colors": {
     "primary": "#0D9373",
-    "light": "#07C983",
-    "dark": "#0D9373",
-    "anchors": {
-      "from": "#0D9373",
-      "to": "#07C983"
-    }
+    "light": "#55D799",
+    "dark": "#0D9373"
   },
-
-  "topbarCtaButton": {
-      "name": "Support",
-      "url": "mailto:team@heurist.xyz"
-  },
-  
-  "anchors": [
-    {
-      "name": "Twitter",
-      "icon": "twitter",
-      "url": "https://twitter.com/heurist_ai"
-    },
-    {
-      "name": "Community",
-      "icon": "Discord",
-      "url": "https://discord.com/invite/heuristai"
-    }
-  ],
+  "favicon": "\\~\\files\\v0\\b\\gitbook-x-prod.appspot.com\\o\\spaces\\jKGNlX6gKCqmVXFTJiU4\\icon\\JQHjtKiKNIwE7gANgW0v\\Twitter_Logo122024.png",
   "navigation": [
     {
-      "group": "Getting Started",
+      "group": "Home",
       "pages": [
-        "introduction"
+        "home"
       ]
     },
     {
-      "group": "PROTOCL OVERVIEW",
+      "group": "Protocol Overview",
       "pages": [
-        "protocol/litepaper",
-        "protocol/tokenomics",
-        "protocol/mining",
-        "protocol/node-rental",
-        "protocol/branding-assets",
-        "protocol/contract-addresses"
+        "protocol-overview/litepaper",
+        "protocol-overview/tokenomics",
+        {
+          "group": "Mining",
+          "pages": [
+            "protocol-overview/mining",
+            "protocol-overview/mining/season-1-ended",
+            "protocol-overview/mining/season-2-ongoing"
+          ]
+        },
+        "protocol-overview/node-rental",
+        "protocol-overview/branding-assets",
+        "protocol-overview/contract-addresses"
       ]
     },
     {
-      "group": "ECOSYSTEM",
+      "group": "Ecosystem",
       "pages": [
         "ecosystem/create-to-earn",
-        "ecosystem/zk-imagine-nft",
+        "ecosystem/zkimagine-nft",
         "ecosystem/imaginaries-nft",
-        "ecosystem/loyality-program"
+        "ecosystem/loyalty-program"
       ]
     },
     {
-      "group": "DEVELOPER",
+      "group": "Developer",
       "pages": [
         "developer/integration-overview",
         "developer/supported-models",
@@ -69,18 +50,12 @@
         "developer/heurist-llm-gateway"
       ]
     },
-
     {
-      "group": "API Documentation",
+      "group": "Guides",
       "pages": [
-        "api-reference/introduction"
+        "guides/miner-guide",
+        "guides/ai-101"
       ]
     }
-    
-  ],
-  "footerSocials": {
-    "x": "https://x.com/heurist_ai",
-    "discord": "https://discord.com/invite/heuristai",
-    "linkedin": "https://www.linkedin.com/company/heurist-ai/"
-  }
+  ]
 }
