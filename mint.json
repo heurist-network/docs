@@ -1,0 +1,61 @@
+{
+  "$schema": "https://mintlify.com/schema.json",
+  "name": "Heurist",
+  "colors": {
+    "primary": "#0D9373",
+    "light": "#55D799",
+    "dark": "#0D9373"
+  },
+  "favicon": "\\~\\files\\v0\\b\\gitbook-x-prod.appspot.com\\o\\spaces\\jKGNlX6gKCqmVXFTJiU4\\icon\\JQHjtKiKNIwE7gANgW0v\\Twitter_Logo122024.png",
+  "navigation": [
+    {
+      "group": "Home",
+      "pages": [
+        "home"
+      ]
+    },
+    {
+      "group": "Protocol Overview",
+      "pages": [
+        "protocol-overview/litepaper",
+        "protocol-overview/tokenomics",
+        {
+          "group": "Mining",
+          "pages": [
+            "protocol-overview/mining",
+            "protocol-overview/mining/season-1-ended",
+            "protocol-overview/mining/season-2-ongoing"
+          ]
+        },
+        "protocol-overview/node-rental",
+        "protocol-overview/branding-assets",
+        "protocol-overview/contract-addresses"
+      ]
+    },
+    {
+      "group": "Ecosystem",
+      "pages": [
+        "ecosystem/create-to-earn",
+        "ecosystem/zkimagine-nft",
+        "ecosystem/imaginaries-nft",
+        "ecosystem/loyalty-program"
+      ]
+    },
+    {
+      "group": "Developer",
+      "pages": [
+        "developer/integration-overview",
+        "developer/supported-models",
+        "developer/image-generation-api",
+        "developer/heurist-llm-gateway"
+      ]
+    },
+    {
+      "group": "Guides",
+      "pages": [
+        "guides/miner-guide",
+        "guides/ai-101"
+      ]
+    }
+  ]
+}
